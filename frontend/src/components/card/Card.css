@@ -1,0 +1,15 @@
+.card {
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px 2px white;
+    margin:1rem;
+}
+
+.card > h1{
+    font-size: 2rem;
+}
+.card > img{
+    border-radius: 1rem;
+    width: 16rem;
+}
