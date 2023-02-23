@@ -1,6 +1,7 @@
 const express = require("express");
 const { MongoClient, ObjectId } = require("mongodb");
 require('dotenv').config();
+const cors = require("cors");
 //const DB_URL = "mongodb://127.0.0.1:27017";
 const DB_URL = process.env.CONNECTIONSTRING
 const DB_NAME = "ocean-bancodedados";
@@ -19,6 +20,7 @@ console.log("Banco de dados conectado com sucesso");
 //instacia do express
 const app = express();
 
+app.use(cors());
 //criando uma rota, PADRAO
 app.get("/", function (req, res){
     res.send("oiiii estou rodando")
