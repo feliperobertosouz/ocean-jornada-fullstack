@@ -1,0 +1,12 @@
+.tags{
+    display: flex;
+}
+
+.tags p{
+    margin:3px;
+    padding:5px;
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+    border-radius: 1rem;
+}

@@ -1,0 +1,26 @@
+nav{
+    box-sizing: border-box;
+    padding:0px;
+    border: 0px;
+}
+.navbar{
+    display: flex;
+    padding: 30px;
+}
+
+li,a{
+    text-decoration: none;
+    padding:10px;
+    margin:5px;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0px;
+    padding-left: 30px;
+    border:0px;
+    background-color: rgb(106, 105, 105);
+}
