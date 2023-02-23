@@ -1,3 +1,14 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0px;
+    padding-left: 30px;
+    border:0px;
+    background-color: rgb(106, 105, 105);
+}
+
 nav{
     box-sizing: border-box;
     padding:0px;
@@ -15,12 +26,3 @@ li,a{
     list-style: none;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    padding: 0px;
-    padding-left: 30px;
-    border:0px;
-    background-color: rgb(106, 105, 105);
-}
