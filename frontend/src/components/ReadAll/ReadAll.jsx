@@ -47,7 +47,8 @@ function ReadAll()  {
 
 
     async function realizarRequisicao(){
-      const url = "http://localhost:3001/itens"
+      //const url = "http://localhost:3001/itens"
+      const url = "https://ocena-jornada-fullstack.onrender.com";
       const response = await fetch(url);
       const data = await response.json();
       console.log(data);
