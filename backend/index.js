@@ -89,7 +89,11 @@ app.delete("/item/:id", async function (req, res){
   await collection.deleteOne({_id: new ObjectId(id)})
   res.send("Deletado o id: " + id);
 })
-app.listen(3001);
+
+const port = process.env.PORT || 3001;
+app.listen(port, function (){
+  console.log("Servidor rodando na porta :" + port);
+});
 }
 
 Main();
