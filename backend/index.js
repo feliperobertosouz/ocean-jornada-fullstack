@@ -3,8 +3,8 @@ const { MongoClient, ObjectId } = require("mongodb");
 require('dotenv').config();
 const cors = require("cors");
 //const DB_URL = "mongodb://127.0.0.1:27017";
-// const DB_URL = process.env.CONNECTIONSTRING
-const DB_URL = "mongodb+srv://feliperobertosouz:fekmongodb1347@cursojs.fto5phb.mongodb.net"
+const DB_URL = process.env.CONNECTIONSTRING
+// const DB_URL = "mongodb+srv://feliperobertosouz:fekmongodb1347@cursojs.fto5phb.mongodb.net"
 const DB_NAME = "ocean-bancodedados";
 
 //classe main
