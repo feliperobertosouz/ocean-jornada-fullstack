@@ -4,11 +4,11 @@ function Header(){
 
     return(
     <header>
-        <h1>LOGO</h1>
+        <img src="https://oceanbrasil.com/assets/logo.svg"/>
         <nav>
             <ul className="navbar">
-                <li><a href="#">Item 1</a></li>
-                <li><a href="#">Item 2</a></li>
+                {/* <li><a href="#"></a></li>
+                <li><a href="#">Item 2</a></li> */}
             </ul>
         </nav>
     </header>
